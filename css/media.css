@@ -1,0 +1,14 @@
+*{
+  transition: all .2s;
+}
+@media only screen and (max-width: 768px){
+  .main-slide-none{
+    display: none;
+  }
+  .main-slide-center{
+    margin: auto;
+  }
+  .main-slide-text{
+    font-size: 13px;
+  }
+}
