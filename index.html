@@ -9,62 +9,61 @@
   <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-  <div class="header-block">
-    <div class="header-content content">
-      <p class="header-logo">Aditii</p>
-      <form action="" class="search">
-        <input class="header-input" type="search" name="" value="">
-        <button class="header-search"type="submit" name="button"></button>
-      </form>
-      <div class="header-balance">
-        <button class="header-balance-basket" type="button" name="button"></button>
-        <p class="header-balance-int">$200</p>
+  <div class="container-fluid header-block">
+    <div class="header-content container">
+      <div class="row header-media">
+        <div class="col-md-auto header-media-logo"><p  class="header-logo">Aditii</p></div>
+          <div class="row col header-balance-media">
+            <form action="" class="search col-auto col-sm-auto col-lg row">
+              <input class="header-input" type="search" name="" value="">
+              <button class="header-search"type="submit" name="button"></button>
+            </form>
+            <div class="header-balance col-2 row">
+              <button class="header-balance-basket" type="button" name="button"></button>
+              <p class="header-balance-int">$0</p>
+            </div>
+          </div>
       </div>
     </div>
   </div>
   <div class="sitebar">
-    <ul class="sitebar-content content">
-      <a href=""><li class="sitebar-li sitebar-li-one">HOME</li></a>
-      <a href=""><li class="sitebar-li">SALE</li></a>
-      <a href=""><li class="sitebar-li">WALLETS</li></a>
-      <a href=""><li class="sitebar-li">ACCESSORIES</li></a>
-      <a href=""><li class="sitebar-li">MENS STORE</li></a>
-      <a href=""><li class="sitebar-li">SHOES</li></a>
-      <a href=""><li class="sitebar-li">VITAGE</li></a>
-      <a href=""><li class="sitebar-li">SERVICES</li></a>
-      <a href=""><li class="sitebar-li">HANDBAGS</li></a>
-      <a href=""><li class="sitebar-li">CONTACT US</li></a>
-    </ul>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg sitebar-Noboot-setingNav navbar-light">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"id="sitebar-butSetting" type="button" name="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="row sitebar-ul sitebar-content justify-content-center">
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li sitebar-li-one">HOME</li>
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li">SALE</li>
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li">WALLETS</li>
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li">ACCESSORIES</li>
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li">MENS STORE</li>
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li">SHOES</li>
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li sitebar-li-two">VITAGE</li>
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li">SERVICES</li>
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li">HANDBAGS</li>
+            <li class="col-12 col-md-2 col-lg col-xl sitebar-li">CONTACT US</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 </div>
 <div class="main conteiner-fluid">
   <div class="container">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" id="my-stile-slide" class=" active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" id="my-stile-slide"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2" id="my-stile-slide"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active main">
+    <div class="carousel-item main active">
       <div class="row main-slide-container">
         <div class="col-6 row justify-content-md-center main-slide-none">
           <img class="main-slide-png" src="img/Layer.png" alt="">
         </div>
-        <div class="col-sm-6 col-12 row main-slide main-slide-center">
-          <div class="main-slide-description">
-              <p class="main-slide-headline">COWHIDE</br> Standard Crew</p>
-              <p class="main-slide-text">White coloured, short-sleeved, printed T-shirt for men by</br> Levi's. This crew-neck T-shirt is made of organic cotton and</br> comes in a regular fit. </p>
-          </div>
-          <button class="main-slide-button" type="submit" name="button">SHOP NOW</button>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item main">
-      <div class="row main-slide-container">
-        <div class="col-6 row justify-content-md-center main-slide-none">
-          <img class="main-slide-png" src="img/Layer.png" alt="">
-        </div>
-        <div class="col-6 row main-slide main-slide-center">
+        <div class="col-auto col-md-6 row main-slide main-slide-center">
           <div class="main-slide-description">
               <p class="main-slide-headline">2COWHIDE</br> Standard Crew</p>
               <p class="main-slide-text">White coloured, short-sleeved, printed T-shirt for men by</br> Levi's. This crew-neck T-shirt is made of organic cotton and</br> comes in a regular fit. </p>
@@ -78,7 +77,21 @@
         <div class="col-6 row justify-content-md-center main-slide-none">
           <img class="main-slide-png" src="img/Layer.png" alt="">
         </div>
-        <div class="col-6 row main-slide main-slide-center">
+        <div class="col-auto col-md-6 row main-slide main-slide-center">
+          <div class="main-slide-description">
+              <p class="main-slide-headline">2COWHIDE</br> Standard Crew</p>
+              <p class="main-slide-text">White coloured, short-sleeved, printed T-shirt for men by</br> Levi's. This crew-neck T-shirt is made of organic cotton and</br> comes in a regular fit. </p>
+          </div>
+          <button class="main-slide-button" type="submit" name="button">SHOP NOW</button>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item main">
+      <div class="row main-slide-container">
+        <div class="col-6 row justify-content-md-center main-slide-none">
+          <img class="main-slide-png" src="img/Layer.png" alt="">
+        </div>
+        <div class="col-auto col-md-6 row main-slide main-slide-center">
           <div class="main-slide-description">
               <p class="main-slide-headline">3COWHIDE</br> Standard Crew</p>
               <p class="main-slide-text">White coloured, short-sleeved, printed T-shirt for men by</br> Levi's. This crew-neck T-shirt is made of organic cotton and</br> comes in a regular fit. </p>
@@ -99,8 +112,159 @@
 </div>
 </div>
 </div>
-
-
+<div class="container-fluid">
+  <div class="container categoris-main">
+    <div class="row justify-content-center">
+      <div class="categoris-block col-12 col-auto col-md-4 row col-sm-auto">
+          <img class="categoriis-img col-sm-7" src="img/obuvr.png" alt="">
+          <div class="categoris-name col-sm-5">
+            <p class="categories-name-text">BRANDEN</br>SHOES</p>
+            <button class="categotis-button" type="button" name="button">SHOP</button>
+          </div>
+      </div>
+      <div class="categoris-block col-12 col-auto col-md-4 row col-sm-auto">
+          <img class="categoriis-img col-sm-7" src="img/futbal.png" alt="">
+          <div class="categoris-name col-sm-5">
+            <p class="categories-name-text">BRANDEN</br>TSHIRTS</p>
+            <button class="categotis-button" type="button" name="button">SHOP</button>
+          </div>
+      </div>
+      <div class="categoris-block col-12 col-auto col-md-4 col-sm-auto row">
+          <img class="categoriis-img col-sm-7 col-7" src="img/shtan.png" alt="">
+          <div class="categoris-name col-sm-5 col-5">
+            <p class="categories-name-text">BRANDEN</br>SHOES</p>
+            <button class="categotis-button" type="button" name="button">SHOP</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid text-catalog">
+  <div class="container">
+    <p class="content-text">FEATURED pRODUCTS</p>
+  </div>
+</div>
+<div class="container products">
+  <div class="row justify-content-around products-row">
+    <div class="col-12 col-lg-auto product-card-items">
+      <div class="row products-card justify-content-center">
+        <img src="img/tufl.png" alt="" class="products-img">
+        <p class="products-name">BRANDED SHOE</p>
+        <div class="products-pay row justify-content-around">
+          <p class="products-bacs ">$300</p>
+          <button class="categotis-button  product-but" type="button" name="button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-auto product-card-items">
+      <div class="row products-card justify-content-center">
+        <img src="img/fut-prod.png" alt="" class="products-img">
+        <p class="products-name">BRANDED TEES</p>
+        <div class="products-pay row justify-content-around">
+          <p class="products-bacs ">$300</p>
+          <button class="categotis-button  product-but" type="button" name="button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-auto product-card-items">
+      <div class="row products-card justify-content-center">
+        <img src="img/fut-prod2.png" alt="" class="products-img">
+        <p class="products-name">BRANDED SHOE</p>
+        <div class="products-pay row justify-content-around">
+          <p class="products-bacs ">$300</p>
+          <button class="categotis-button  product-but" type="button" name="button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-around products-row">
+    <div class="col-12 col-lg-auto product-card-items">
+      <div class="row products-card justify-content-center">
+        <img src="img/sumka.png" alt="" class="products-img">
+        <p class="products-name">BRANDED SHOE</p>
+        <div class="products-pay row justify-content-around">
+          <p class="products-bacs ">$300</p>
+          <button class="categotis-button  product-but" type="button" name="button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-auto product-card-items">
+      <div class="row products-card justify-content-center">
+        <img src="img/sumka2.png" alt="" class="products-img">
+        <p class="products-name">EMS Women  bAG</p>
+        <div class="products-pay row justify-content-around">
+          <p class="products-bacs ">$300</p>
+          <button class="categotis-button  product-but" type="button" name="button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-auto product-card-items">
+      <div class="row products-card justify-content-center">
+        <img src="img/shtan.png" alt="" class="products-img">
+        <p class="products-name">bRANDED CARGOS </p>
+        <div class="products-pay row justify-content-around">
+          <p class="products-bacs ">$300</p>
+          <button class="categotis-button  product-but" type="button" name="button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="blockLink container-fluid">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-6 col-md-auto blockLink-block blockLink-txt blockLink-content">
+        <p class="blockLink-head blockLink-txt">fEATURED sALE</p>
+        <p class="blockLink-name blockLink-txt">Alexis Hudson</p>
+        <p class="blockLink-name blockLink-txt">American Apparel</p>
+        <p class="blockLink-name blockLink-txt">Ben Sherman</p>
+        <p class="blockLink-name blockLink-txt">Big Buddha</p>
+        <p class="blockLink-name blockLink-txt">Chanel</p>
+        <p class="blockLink-name blockLink-txt">Christian Audigier</p>
+        <p class="blockLink-name blockLink-txt">Coach</p>
+        <p class="blockLink-name blockLink-txt">Cole Haan</p>
+      </div>
+      <div class="col-6 col-md-auto blockLink-block blockLink-txt blockLink-content">
+        <p class="blockLink-head blockLink-txt">fEATURED sALE</p>
+        <p class="blockLink-name blockLink-txt">Alexis Hudson</p>
+        <p class="blockLink-name blockLink-txt">American Apparel</p>
+        <p class="blockLink-name blockLink-txt">Ben Sherman</p>
+        <p class="blockLink-name blockLink-txt">Big Buddha</p>
+        <p class="blockLink-name blockLink-txt">Chanel</p>
+        <p class="blockLink-name blockLink-txt">Christian Audigier</p>
+        <p class="blockLink-name blockLink-txt">Coach</p>
+        <p class="blockLink-name blockLink-txt">Cole Haan</p>
+      </div>
+      <div class="col-6 col-md-auto blockLink-block blockLink-txt blockLink-content">
+        <p class="blockLink-head blockLink-txt">fEATURED sALE</p>
+        <p class="blockLink-name blockLink-txt">Alexis Hudson</p>
+        <p class="blockLink-name blockLink-txt">American Apparel</p>
+        <p class="blockLink-name blockLink-txt">Ben Sherman</p>
+        <p class="blockLink-name blockLink-txt">Big Buddha</p>
+        <p class="blockLink-name blockLink-txt">Chanel</p>
+        <p class="blockLink-name blockLink-txt">Christian Audigier</p>
+        <p class="blockLink-name blockLink-txt">Coach</p>
+        <p class="blockLink-name blockLink-txt">Cole Haan</p>
+      </div>
+      <div class="col-6 col-md-auto blockLink-block blockLink-content">
+        <p class="blockLink-head blockLink-txt">fEATURED sALE</p>
+        <p class="blockLink-name blockLink-txt">Alexis Hudson</p>
+        <p class="blockLink-name blockLink-txt">American Apparel</p>
+        <p class="blockLink-name blockLink-txt">Ben Sherman</p>
+        <p class="blockLink-name blockLink-txt">Big Buddha</p>
+        <p class="blockLink-name blockLink-txt">Chanel</p>
+        <p class="blockLink-name blockLink-txt">Christian Audigier</p>
+        <p class="blockLink-name blockLink-txt">Coach</p>
+        <p class="blockLink-name blockLink-txt">Cole Haan</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer container-fluid">
+  <div class="container">
+    <p class="footer-txt">Copyright © 2013 Css Author</p>
+  </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

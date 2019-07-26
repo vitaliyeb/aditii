@@ -20,7 +20,7 @@
   font-style: normal;
 }
 .header-block{
-  height: 80px;
+  min-height: 80px;
   width: 100%;
   background-color: white;
 }
@@ -40,19 +40,24 @@
   margin: 0;
 }
 .search{
-  display: inline-block;
-  width: 440px;
-  position: relative;
-  margin: 0 190px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+
 .header-input{
-  position: absolute;
   width: 400px;
   height: 30px;
+  outline: none;
   border: 1px solid #e1e1e1;
   border-right: none;
 }
+.header-search:focus{
+  outline: none;
+}
 .header-search{
+  font-family: sans-serif;
+
   width: 40px;
   padding: 0;
   float: right;
@@ -66,8 +71,9 @@
   cursor: pointer;
 }
 .header-balance{
-  display: inline-block;
-  height: 41px;
+  justify-content: center;
+  align-items:center;
+  min-width: 140px;
 }
 .header-balance-basket{
   height: 37px;
@@ -83,19 +89,21 @@
   font-family: BedasNeue;
   font-size: 35px;
   font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 10px;
   display: inline-block;
 }
 .sitebar{
-  height: 36px;
   background-color: #4ccfc1;
   width: 100%;
 }
 .sitebar-content{
+  padding: 0;
   list-style: none;
 }
 .sitebar-li{
+  cursor: pointer;
   display: inline-block;
-  width: 9%;
   font-family: BedasNeue;
   color: #fff;
   font-weight: bold;
@@ -128,7 +136,7 @@
   line-height: 50px;
 }
 .main-slide-text{
-  font-size: 15px;
+  font-size: 12px;
   font-family: sans-serif;
   color: #fff;
   font-weight: lighter;
@@ -136,7 +144,6 @@
 .main-slide-description{
   display: inline-block;
   padding-bottom: 30px;
-  width: 415px;
 }
 .main-slide{
   flex-direction: column;
@@ -162,4 +169,165 @@
     height: 20px;
     top: 49%;
     border-radius: 20px;
+}
+#my-stile-slide{
+  width: 10px;
+  border-radius: 5px;
+  border: none;
+  height: 10px;
+}
+.sitebar-Noboot-seting{
+  margin: 0;
+  width: 100%;
+  padding-top: 3px;
+}
+.sitebar-Noboot-setingNav{
+  padding: 0;
+}
+.sitebar-li{
+  line-height: 23px;
+}
+#sitebar-butSetting{
+
+}
+.m{
+  padding: 0;
+}
+.sitebar-ul{
+  margin: 0px;
+  width: 100%;
+}
+.sitebar-li:hover{
+  background-color: #60aca1;
+}
+.categoriis-img{
+  flex: none;
+  object-fit: contain;
+  width: 170px;
+  height: 140px;
+}
+.categories-name-text{
+  font-family: BedasNeue;
+  font-weight: bold;
+  color: #afafaf;
+  font-size: 30px;
+  line-height: 30px;
+}
+.categotis-button{
+  letter-spacing: 3px;
+  width: 60px;
+  height: 33PX;
+  background-color: #3cc395;
+  border: none;
+  font-family: BedasNeue;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+}
+.categoris-main{
+  min-height: 190px;
+}
+.categoris-block{
+  margin-top: 15px;
+}
+
+.categoris-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-text{
+  line-height: 70px;
+  font-size: 33px;
+  height: 70px;
+  color: #fff;
+  font-family: BedasNeue;
+  font-weight: bold;
+
+}
+.text-catalog{
+  background-color: #42c7b3;
+}
+.product-but{
+  height: 33px;
+  width: 73px;
+}
+.product-but{
+  font-size: 14px;
+}.products-img{
+  object-fit: contain;
+  padding-top: 10px;
+}
+.products-bacs{
+  font-family: BedasNeue;
+  font-weight: bold;
+  color: #afafaf;
+  font-size: 30px;
+  line-height: 30px;
+}
+.products-card{
+  flex-direction: column;
+}
+.products-name{
+    line-height: 60px;
+    font-size: 33px;
+    margin: 0;
+    color: #afafaf;
+    font-family: BedasNeue;
+    font-weight: bold;
+    text-align: center;
+}
+.product-card-items{
+    width: 256px;
+    height: 257px;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    border-bottom: 5px solid #3cc395;
+}
+.products-row{
+  padding-top: 55px;
+}
+.products{
+  min-height: 670px;
+}
+.blockLink{
+  background-color: #3cc3b5;
+  min-height: 335px;
+  margin-top: 50px;
+}
+.blockLink-txt{
+  font-family: BedasNeue;
+  color: #fff;
+}
+.blockLink-head{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  padding: 20px 0px;
+}
+.blockLink-name{
+    line-height: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.footer{
+  background-color: #2da89b;
+}
+.footer-txt{
+  height: 45px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #fff;
+  line-height: 45px;
+}
+.categotis-button:hover{
+  background-color: #3c9e7d;
+}
+.main-slide-button:hover{
+  background-color: #fff;
+  color: #3ec3b4;
 }

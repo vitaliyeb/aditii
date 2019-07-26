@@ -12,3 +12,53 @@
     font-size: 13px;
   }
 }
+
+@media only screen and (max-width: 880px){
+  .header-input{
+    width: 200px;
+  }
+  .header-media{
+    justify-content: center;
+  }
+  .header-media-logo{
+    display: flex;
+    justify-content: center;
+  }
+  .header-balance-media{
+    justify-content: space-between;
+  }
+
+}
+@media (max-width: 992px){
+  .sitebar-li-two{
+    border-left: none;
+  }
+  .product-card-items{
+    margin-top: 50px;
+  }
+
+}
+@media (max-width: 768px){
+  .sitebar-li{
+    border-left: none;
+  }
+  .main-slide-button{
+    margin: 0 auto;
+  }
+  .products-row{
+    padding-top: 0;
+  }
+  .blockLink-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 560px){
+  .categoris-name{
+    width: auto;
+  }
+  .blockLink-head{
+    font-size: 25px;
+  }
+}
