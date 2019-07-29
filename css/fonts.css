@@ -1,0 +1,18 @@
+@font-face{
+        font-family: 'Lobster';
+        src: url(../fonts/reptil.ttf);
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face{
+        font-family: 'BedasNeue';
+        src: url(../fonts/BebasNeueBold.otf);
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face{
+        font-family: 'BedasNeue';
+        src: url(../fonts/BebasNeueLight.otf);
+        font-weight: lighter;
+        font-style: normal;
+}
