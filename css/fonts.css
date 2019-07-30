@@ -16,3 +16,9 @@
         font-weight: lighter;
         font-style: normal;
 }
+@font-face{
+        font-family: 'BedasNeueBold';
+        src: url(../fonts/BebasNeueBold.ttf);
+        font-weight: normal;
+        font-style: normal;
+}
