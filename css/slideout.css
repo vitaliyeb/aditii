@@ -1,0 +1,95 @@
+body {
+        transition: all .2s;
+        width: 100%;
+        height: 100%;
+      }
+
+      .slideout-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        width: 256px;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        display: none;
+      }
+
+      .slideout-panel {
+        position: relative;
+        z-index: 1;
+        will-change: transform;
+      }
+
+      .slideout-open,
+      .slideout-open body,
+      .slideout-open .slideout-panel {
+        overflow: hidden;
+      }
+
+      .slideout-open .slideout-menu {
+        display: block;
+      }
+      .menu-section-list{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      .menu-section{
+        height: 100%;
+      }
+      .menu-logo{
+        width: 100%;
+        padding: 0;
+        background-color: #4ccfc1;
+        text-align: center;
+      }
+      .menu-logo>a{
+        color: #fff;
+        padding: 0;
+        margin: 0;
+      }
+      #menu .sitebar-link{
+        padding-left: 25px;
+        padding-top: 3vh;
+      }
+      .toggle-button{
+          display: none;
+          position: fixed;
+          background-color: #ae353500;
+          border-radius: 40px;
+          box-shadow: none;
+          outline: none;
+          border: 0;
+          z-index: 10;
+          top: 0;
+          padding: 5px;
+          cursor: pointer;
+          top: 8px;
+          left: 13px;
+      }
+      .toggle-button:focus{
+        outline: none;
+      }
+    #panel{
+        will-change: unset;
+    }
+
+    .panel:before {
+          content: '';
+          display: block;
+          background-color: rgba(0,0,0,0);
+          transition: background-color 0.5s ease-in-out;
+      }
+
+    .panel-open:before {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: rgba(0,0,0,.5);
+          z-index: 99;
+      }

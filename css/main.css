@@ -88,6 +88,19 @@ a:hover{
         margin-left: 10px;
         display: inline-block;
 }
+/*ТУТ НАСТРОЙКА МЕНЮШКИ С МАЛЕНЬКИИМ ЭКРАНАМИ*/
+#menu{
+  overflow-y: hidden;
+}
+#menu ul{
+  background-color: #4ccfc1;
+  width: 100%;
+  height: 100%;
+}
+#menu li{
+  border: none;
+}
+
 /*МЕНЮ САЙТА*/
 .sitebar{
         position: relative;
@@ -127,9 +140,12 @@ a:hover{
 }
 .sitebar-Noboot-setingNav{
         padding: 0;
+        min-height: 36px;
 }
-#sitebar-butSetting{
-
+.navbar-toggler{
+        position: absolute;
+        left: -50px;
+        padding: 0;
 }
 .m{
         padding: 0;
@@ -176,6 +192,13 @@ a:hover{
 .main-slide-container{
         padding-top: 60px;
 }
+.carousel-indicators li{
+        cursor: pointer;
+        background-color: #fff
+}
+.carousel-indicators .active{
+        background-color: #9de0d8;
+}
 .main-slide-button{
         border: 2px solid #fff;
         background-color: #fff0;
@@ -205,6 +228,9 @@ a:hover{
         color: #3ec3b4;
 }
 /*КАТЕГОРИИ ПРОДУКТОВ*/
+.container-fluid {
+  background-color: #fff;
+}
 .categoriis-img{
         flex: none;
         object-fit: contain;
@@ -248,6 +274,11 @@ a:hover{
         display: flex;
         flex-direction: column;
         justify-content: center;
+}
+.catalog-shadow{
+        box-shadow: 0px 3px 3px -2px #0000003d;
+        position: relative;
+        z-index: 4;
 }
 .content-text{
         font-family: "BedasNeueBold", sans-serif ;
@@ -302,6 +333,7 @@ a:hover{
         overflow: hidden;
 }
 .products-link{
+        margin-left: 15px;
         font-family: "BedasNeueBold", sans-serif ;
         font-size: 20px;
         width: 74px;
@@ -310,6 +342,7 @@ a:hover{
         padding-top: 33px;
 }
 .products{
+        background-color: #fff;
         max-width: 940px;
         min-height: 670px;
 }

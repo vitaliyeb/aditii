@@ -3,6 +3,9 @@
 }
 
 @media (max-width: 992px){
+        .header-input{
+                width: 370px;
+        }
         .sitebar-li-two{
                 border-left: none;
         }
@@ -18,8 +21,17 @@
         }
 }
 @media only screen and (max-width: 880px){
+        .toggle-button{
+                display: block;
+        }
+        .sitebar, #panel .header-logo{
+                display: none;
+        }
+        .container-fluid{
+                min-height: 1px;
+        }
         .header-input{
-                width: 200px;
+                width: 500px;
         }
         .header-media{
                 justify-content: center;
@@ -78,6 +90,15 @@
           height: 27px;
           font-size: 16px;
         }
+        .header-input{
+          width: 265px;
+        }
+        /*НАСТРОЙКАВЫПАДАЮЩЕГО МЕНЮ */
+        #sitebar-butSetting{
+          position: fixed;
+          top: 0;
+          left: 0;
+        }
 }
 @media (max-width: 560px){
         .categoris-name{
@@ -92,17 +113,22 @@
                 display: none;
         }
         .main{
-          height: 360px;
+                height: 360px;
         }
         .search{
                 width: 100%;
-                margin-bottom: 10px;
+                margin: 10px 0;
         }
         .header-input{
                 width: 160px;
         }
         .main-slide-text{
-                font-size: 9px;
+                margin: 0;
+                font-size: 16px;
+        }
+        .main-slide-description{
+                max-width: 250px;
+                padding-bottom: 0px;
         }
         .blockLink-name{
                 font-size: 12px;
