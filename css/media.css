@@ -101,6 +101,16 @@
         }
 }
 @media (max-width: 560px){
+        .products-card>div{
+          align-items: center;
+        }
+        .products-bacs {
+          margin-bottom: 0;
+        }
+        .products-card .categotis-button{
+                line-height: 27px;
+                width: 70px;
+        }
         .categoris-name{
                 width: auto;
         }
