@@ -3,6 +3,9 @@
         font-family: BedasNeue;
         font-weight: bold;
 }
+a{
+	display: block;
+}
 a:hover{
   color: #fff;
 	text-decoration: none;
