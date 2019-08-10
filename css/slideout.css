@@ -41,22 +41,11 @@ body {
       .menu-section{
         height: 100%;
       }
-      .menu-logo{
-        width: 100%;
-        padding: 0;
-        background-color: #4ccfc1;
-        text-align: center;
-      }
-      .menu-logo>a{
-        color: #fff;
-        padding: 0;
-        margin: 0;
-      }
       #menu .sitebar-link{
         padding-left: 25px;
-        padding-top: 3vh;
       }
       .toggle-button{
+          color: #000;
           display: none;
           position: fixed;
           background-color: #fff0;
@@ -92,4 +81,23 @@ body {
           width: 100%;
           background-color: rgba(0,0,0,.5);
           z-index: 99;
+      }
+      #menu form{
+        margin: 0 0 10px 0;
+      }
+      #menu input{
+        width: 170px;
+      }
+      .slideout-balance{
+        margin-left: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start !important;
+      }
+      #menu li:hover{
+        background-color: #46dbcb;
+      }
+      #menu li>a{
+        padding: 0;
       }

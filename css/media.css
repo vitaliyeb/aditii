@@ -24,8 +24,8 @@
         .toggle-button{
                 display: block;
         }
-        .sitebar, #panel .header-logo{
-                display: none;
+        .header-logo{
+          padding: 0;
         }
         .container-fluid{
                 min-height: 1px;
@@ -40,8 +40,8 @@
                 display: flex;
                 justify-content: center;
         }
-        .header-balance-media{
-                justify-content: space-between;
+        .header-balance-media, .sitebar{
+                display: none;
         }
 
 }
@@ -119,9 +119,6 @@
         }
 }
 @media (max-width: 490px){
-        .header-balance{
-                display: none;
-        }
         .main{
                 height: 360px;
         }
