@@ -3,6 +3,12 @@
 }
 
 @media (max-width: 992px){
+        .toggle-button{
+                display: block;
+        }
+        .sitebar{
+          display: none;
+        }
         .header-input{
                 width: 370px;
         }
@@ -21,9 +27,6 @@
         }
 }
 @media only screen and (max-width: 880px){
-        .toggle-button{
-                display: block;
-        }
         .header-logo{
           padding: 0;
         }
@@ -94,11 +97,6 @@
           width: 265px;
         }
         /*НАСТРОЙКАВЫПАДАЮЩЕГО МЕНЮ */
-        #sitebar-butSetting{
-          position: fixed;
-          top: 0;
-          left: 0;
-        }
 }
 @media (max-width: 560px){
         .products-card>div{
